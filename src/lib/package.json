@@ -1,0 +1,16 @@
+{
+    "name": "@biqdev/ng-helper",
+    "version": "0.0.4",
+    "license": "(ISC OR GPL-3.0)",
+    "repository": "github:BIQDev/ng-helper",
+    "ngPackage": {
+        "lib": {
+            "entryFile": "public_api.ts"
+        },
+        "dest": "../../dist"
+    },
+    "peerDependencies": {
+        "@angular/core": "~8.2.14",
+        "moment": "~2.29.1"
+    }
+}
